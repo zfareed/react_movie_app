@@ -1,0 +1,38 @@
+.searchBox {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  
+  .searchInput {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    border-radius: 50px 0 0 50px;
+  }
+  
+  .searchButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+  }
+  
+  .material-icons {
+    vertical-align: middle;
+  }
+  
+.nomovies{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: blue;
+    margin-top: 50px;
+}
